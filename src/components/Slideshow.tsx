@@ -31,13 +31,8 @@ const slides: ImageArrayType = [
 
 function Slideshow() {
 	const swiperConfig = {
-		slidesPerView: 1,
-		onSlideChange: (e: any) => slideChange(e)
-	};
-
-	const slideChange = (data: any) => {
-		console.log("Slide change");
-		console.log(data);
+		slidesPerView: 1
+		// onSlideChange: (e: any) => slideChange(e)
 	};
 
 	return (
